@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tempe-headers.component.css']
 })
 export class TempeHeadersComponent implements OnInit {
+  isCollapsed = true;
 
   constructor() { }
 
